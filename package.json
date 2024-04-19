@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "ptna ky likhte h ",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "nodemon server.js",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js "
   },
   "keywords": [
     "backend",
@@ -18,5 +20,8 @@
     "express": "^4.19.2",
     "express-rate-limit": "^7.2.0",
     "mongoose": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
