@@ -1,6 +1,6 @@
 // require('dotenv').config({path: "./env"})
 import dotenv from "dotenv"
-import monogdb_connection from './src/db/mongo.js'
+import {monogdb_connection} from './src/db/mongo.js'
 import { app } from "./src/app.js"
 
 const PORT = process.env.PORT || 8000;
